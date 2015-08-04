@@ -18,8 +18,6 @@ class Hooks
             Export::saveField($fieldGroup);
             Migration::touch($fieldGroupKey);
         }
-        print_r($post);
-        die();
     }
 
 }
